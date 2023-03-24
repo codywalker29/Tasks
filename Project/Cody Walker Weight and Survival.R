@@ -1,0 +1,5 @@
+setwd('C:\\Users\\Jimmy\\Desktop\\Evolution\\Tasks\\Project')
+Weightandsurvival<-read.csv('C:\\Users\\Jimmy\\Desktop\\Evolution\\Tasks\\Project\\Weight and Survival.csv')
+boxplot(Weightandsurvival[,1]~Weightandsurvival[,2],xlab="Survival",ylab="Weight (g)")
+head(Weightandsurvival)
+t.test(Weight ~ Survival, data=Weightandsurvival)
