@@ -1,0 +1,6 @@
+setwd('C:\\Users\\Jimmy\\Desktop\\Evolution\\Tasks\\Project')
+library(ggplot2)
+library(readxl)
+Leafdata<-read.csv('C:\\Users\\Jimmy\\Desktop\\Evolution\\Tasks\\Project\\Weight and Leaves.csv')
+head(Leafdata)
+plot(Leafdata)
